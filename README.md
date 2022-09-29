@@ -9,7 +9,7 @@
 
 4、根据四个顶点对图像进行透射变化。每一个单元格占5个像素。
 ![image](https://user-images.githubusercontent.com/16878651/192954687-02f1ed20-50a9-4f01-87c7-ace97031b38b.png)
-
+![image-20220929135657262](C:\Users\Zener\AppData\Roaming\Typora\typora-user-images\image-20220929135657262.png)
 
 5、对透射变化完的图像进行二值化，去掉最外面一圈，里面的为编码区。5x5的像素为一个小单元格，如果5x5中白色的多，为1，黑色的多就为0，形成一个二进制数字。
 
